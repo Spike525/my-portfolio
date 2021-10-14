@@ -1,0 +1,25 @@
+@import "../../scss/theme";
+
+.home {
+  .bgImage {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 100vw;
+      z-index: -1;
+      object-fit: cover;
+  }
+  section {
+    display: flex;
+    height: calc(100vh - 80px);
+    text-align: center;
+    justify-content: center;
+
+    .title {
+      padding-top: 20vh;
+      color: white;
+      font-size: 80px;
+    }
+  }
+}
